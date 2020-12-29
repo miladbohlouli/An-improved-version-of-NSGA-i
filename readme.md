@@ -6,28 +6,28 @@ Multi-objective Optimization(MOO) has formed a large number of optimization chal
 
 
 <div align="center" height="200px">
-<img src="images/MOO.png" alt="MOO">
+<img src="images/MOO.png" alt="MOO"><br/>
 <figcaption align="center">Figure 1: Multi-Objective Optimization formulation</figcaption>
 </div><br/>
 
 An example is shown in Figure 2. Showing two objective functions that we are interested in minimizing both. In MOO examples, we tend to omit the possible answers that are the worst in terms of all the objectives, instead what we are looking for is to find the answers that are at least minimal in one objective. This is called as the nondomination region. In case of Figure 2, the answers have to be scattered in region [0, 2].
 
 <div align="center" height="200px">
-<img src="images/Example.png" alt="example">
+<img src="images/Example.png" alt="example"><br/>
 <figcaption align="center">Figure 2: An example for MOO</figcaption>
 </div><br/>
 
 The possible answers have to be all scattered among the possible region for the answers, to achieve this, a method is used named as Niching Technique to stimulate the answers to place as far as possible. This technique is shown in Figure 3.
 
 <div align="center" height="100px">
-<img src="images/Nich.png" alt="example">
+<img src="images/Nich.png" alt="example"><br/>
 <figcaption align="center">Figure 3: Niching technique</figcaption>
 </div><br/>
 
 An example for the case where the samples should be scattered in the nondomination region.
 
 <div align="center" height="200px">
-<img src="images/scattered.png" alt="example">
+<img src="images/Scattered.png" alt="example"><br/>
 <figcaption align="center">Figure 4: Diversity</figcaption>
 </div><br/>
 
